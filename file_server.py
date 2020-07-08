@@ -4,7 +4,7 @@ import os
 
 PORT = 8000
 
-web_dir = os.path.join(os.path.dirname(__file__), 'xandr_docs')
+web_dir = os.path.join(os.path.dirname(__file__), 'file_server')
 os.chdir(web_dir)
 
 SocketServer.TCPServer.allow_reuse_address = True
